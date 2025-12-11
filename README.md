@@ -72,3 +72,9 @@ export default defineConfig([
 ])
 ```
 # TypeScript-React-Quiz
+
+
+
+# Change the "moduleResolution": "bundler" → 
+"moduleResolution": "node" (or "nodenext") in tsconfig.app.json, 
+then restart your editor / TS server.

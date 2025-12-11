@@ -21,7 +21,7 @@ function QuestionView({ questionProps }) {
       <h3>{current.question}</h3>
       <div className="options">
         {" "}
-        {current.options.map((answer, i) => (
+        {current.options.map((answer: string, i: number) => (
           <p
             key={i}
             className={selected === i ? "selected" : ""}
